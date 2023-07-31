@@ -2,6 +2,8 @@ window.onload = function() {
     window.scrollTo(0, 1);
 };
 
+window.addEventListener('scroll', handleScroll);
+
 function isElementVisible(e){
     /* Returns whether or not the element is in view of client window */
     var bound = e.getBoundingClientRect();
@@ -22,6 +24,27 @@ function handleScroll(){
         element.classList.remove('textrise');
     }
 }
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+});
 
 function sendEmail(event){
     event.preventDefault(); 
@@ -45,5 +68,3 @@ function sendEmail(event){
         });
 
 }
-
-window.addEventListener('scroll', handleScroll);

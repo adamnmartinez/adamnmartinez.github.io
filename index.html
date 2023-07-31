@@ -6,15 +6,9 @@
         <title>| Adam Martinez |</title>
         <link href="style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@100&display=swap" rel="stylesheet">     
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script type="text/javascript">
-            (function(){
-            emailjs.init("ohWjshEh10oCCuRKm");
-            })();
-        </script>
-        
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     </head>
+
     <body>
         <div class="backgroundimage">
             <img class="banner" src="code.png">
@@ -47,6 +41,43 @@
             <p class="topic textrise">   
                 Check out what I've been working on.
             </p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="projectslide">
+                            <img src="code.png">
+                            <div class="projectdetails">
+                                Color Picker <br>
+                                Provides the most frequent colors in a given image. <br> A tool for artist and designers.<br>
+                            </div>
+                            <div class="projectlinks">
+                                <a class="link" href="https://github.com/adamnmartinez" target="_blank">GitHub</a> <br> <br>
+                                <a class="link" href="about:blank" target="_blank">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="projectslide">
+                            <img src="code.png">
+                            <div class="projectdetails">
+                                Portfolio Website <br>
+                                Provides the most frequent colors in a given image. <br> A tool for artist and designers. You are here.<br>
+                            </div>
+                            <div class="projectlinks">
+                                <a class="link" href="https://github.com/adamnmartinez/adamnmartinez.github.io" target="_blank">GitHub</a> <br> <br>
+                                <a class="link" href="https://adamnmartinez.github.io" target="_blank">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+    
         </div>
 
         <div class="section" id="about">
@@ -96,5 +127,13 @@
             </div>
         </div>
 
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init("ohWjshEh10oCCuRKm");
+            })();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
