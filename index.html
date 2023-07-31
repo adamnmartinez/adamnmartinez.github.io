@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devicewidth, initial-scale=1">
+        <title>| Adam Martinez |</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@100&display=swap" rel="stylesheet">     
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init("ohWjshEh10oCCuRKm");
+            })();
+        </script>
+        
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="backgroundimage">
+            <img class="banner" src="code.png">
+            <div class="overlaytext">
+                <h1 class="name">I'm Adam Martinez</h1>
+                <hr>
+                <h2 class="name">Web and Software Developer</h2>
+                <hr>
+                <h2 class="subheader">Welcome to my portfolio.</h2>
+                <h4 class="sublinks"> <a href="https://github.com/adamnmartinez" target="_blank">GitHub</a> <a href="#projects">Projects</a> <a href="#contact">Contact</a></h4>
+            </div>
+        </div>
+
+        <div class="section" id="intro">
+            <h1 class="sectionheader riseTrigger"><i>Hi</i></h1>
+            <p class="topic textrise">
+                My name is Adam Martinez, I am a current student at the University of California, Santa Cruz pursuing a degree in
+                computer science.
+            </p>
+        </div>
+
+        <div class="section" id="projects">
+            <h1 class="sectionheader riseTrigger"><i>Projects</i></h1>
+            <p class="topic textrise">   
+                Check out what I've been working on.
+            </p>
+        </div>
+
+        <div class="section" id="about">
+            <h1 class="sectionheader riseTrigger"><i>About Me</i></h1>
+            <p class="topic textrise"> 
+                I'm very enthusiastic about programming, software, and web development. I started coding because I wanted to understand
+                and manipulate the virtual applications I engaged with on a regular basis, mostly video games at the time.<br><br>
+                I was gripped by the creative and technical potential of software design, and today I create accessible
+                applications and technology that can help people live, engage with the world around them, and have fun.<br><br>
+                Tech aside, I love nature and hiking, and am always looking for excuses to get out into the world and immerse myself
+                within the natural wonders of our planet.
+    
+            </p>
+        </div>
+
+        <hr class="divider">
+
+        <div class="contactme" id="contact">
+            <h2 class="sectionheader"><i>Contact Me</i></h2>
+            <div class="contactbox">
+                <div class="contactmessage">
+                    <h3>Send me a message</h3>
+                    <form onsubmit="sendEmail(event)">
+                        <div class="contactinput">
+                            <input class="inputfield" id="name" type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="contactinput">
+                            <input class="inputfield" id="email" type="text" placeholder="Your email" required>
+                        </div>
+                        <div class="contactinput">
+                            <textarea class="inputfield" id="message" rows="10" placeholder="Your message" required></textarea>
+                        </div>
+                        <button class="sendbutton" type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contactreachme">
+                    <h3>How to reach me</h3>
+                    <div>
+                        <h4><i>Email</i></h4>
+                        adammartinezdev@gmail.com
+                    </div>
+                    <div>
+                        <h4><i>Phone</i></h4>
+                        +1(310)-383-0682
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
