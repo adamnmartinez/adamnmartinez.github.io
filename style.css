@@ -64,13 +64,11 @@ html {
 .link {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
 
-.link .projectlinks {
-    color: cornsilk;
-    background-color: rgba(255, 255, 255, 0.5);
+.highlight {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .subheader {
@@ -81,7 +79,7 @@ html {
 
 .section {
     margin: 0 auto;
-    max-width: 780px;
+    max-width: 60%;
     font-family: 'Geologica', sans-serif;
     color: cornsilk;
     padding: 3em 100px;
@@ -97,13 +95,15 @@ div.swiper-button-next {
     color: cornsilk;
 }
 
-span.swiper-pagination-bullet {
-    background-color: cornsilk;
-}
-
 .projectslide img{
     position: relative;
     overflow: hidden;
+}
+
+.projectimage{
+    max-width: 100%;
+    height: auto;
+    opacity: 40%;
 }
 
 .projectslide .projectdetails {
@@ -113,7 +113,7 @@ span.swiper-pagination-bullet {
     font-size: 40%;
     top: 10%;
     left: 3%;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.7);
     color: black;
     border-radius: 10px;
 }
@@ -146,7 +146,7 @@ span.swiper-pagination-bullet {
 .contactme {
     font-family: 'Geologica', sans-serif;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 70%;
     color: cornsilk;
 }
 
