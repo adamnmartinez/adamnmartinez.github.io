@@ -118,6 +118,15 @@ div.swiper-button-next {
     border-radius: 10px;
 }
 
+.projectdetails, .projectlinks {
+    padding: 1%;
+}
+
+.projectslide .link {
+    padding: 5%;
+}
+
+
 .projectslide .projectlinks {
     position: absolute;
     text-align: right;
