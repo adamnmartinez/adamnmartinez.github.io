@@ -1,2 +1,2 @@
-# My Website
-This is the repository for Adam Martinez's portfolio website.
+# Website V1
+The first iteration of Adam Martinez's portfolio website.
